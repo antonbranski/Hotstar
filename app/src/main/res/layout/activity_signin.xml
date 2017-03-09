@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/main_color_000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="Username"
+            android:textColorHint="#cccccc"
+            android:textColor="@color/main_color_100"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:drawableLeft="@drawable/user"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bottom_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="Password"
+            android:textColorHint="#cccccc"
+            android:textColor="@color/main_color_100"
+            android:password="true"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:drawableLeft="@drawable/password"/>
+        <CheckBox
+            android:id="@+id/chkLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm in Metro"
+            android:checked="true"
+            android:textColor="@color/main_color_500"/>
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="14dp"
+            android:text="Sign In"
+            android:background="@drawable/roundbutton"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

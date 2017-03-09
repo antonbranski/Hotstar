@@ -1,0 +1,24 @@
+{
+    "version" : "1.1",
+    "analytics" : {
+        "rsids" : "primeprimefocustechnologies",
+        "server" : "primetimeenablement.d1.sc.omtrdc.net",
+        "charset" : "UTF-8",
+        "ssl" : false,
+        "offlineEnabled" : true,
+        "lifecycleTimeout" : 30,
+        "batchLimit" : 50,
+        "privacyDefault" : "optedin",
+        "poi" : []
+    },
+    "marketingCloud": {
+        "org": "0D1D4673527D21EB0A490D45@AdobeOrg" 
+    },
+    "target" : {
+        "clientCode" : "",
+        "timeout" : 5
+    },
+    "audienceManager" : {
+        "server" : ""
+    }
+}

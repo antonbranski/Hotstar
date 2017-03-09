@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playerMainLayout"
+    style="@style/ActivityPlayer">
+
+    <SurfaceView
+        android:id="@+id/puppetSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.hotstar.player.adplayer.player.CustomFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/playerFrame"
+        style="@style/PlayerFrame"
+        android:layout_alignParentBottom="true" >
+    </com.hotstar.player.adplayer.player.CustomFrameLayout>
+
+    <ProgressBar
+        android:id="@+id/pbBufferingSpinner"
+        style="@style/BufferingSpinner" />
+
+    <RelativeLayout
+        android:id="@+id/ControlTopBarItem"
+        style="@style/PlayerControlTopBarFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:addStatesFromChildren="true"
+        android:animateLayoutChanges="true"
+        android:visibility="gone"
+        android:clipToPadding="false"
+        android:splitMotionEvents="true" >
+
+        <ImageButton
+            android:id="@+id/btnPlayerControlClose"
+            style="@style/PlayerControlBarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/close"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true" />
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/btnPlayerControlShare"
+                style="@style/PlayerControlBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/share"/>
+            <ImageButton
+                android:id="@+id/btnPlayerControlMoreFill"
+                style="@style/PlayerControlBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/more_fill" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/AdControlBarItem"
+        style="@style/PlayerControlBarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:addStatesFromChildren="true"
+        android:animateLayoutChanges="true"
+        android:clipToPadding="false"
+        android:splitMotionEvents="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Ad"
+                style="@style/PlayerControlBar.Text"
+                android:textSize="14sp" />
+            <Button
+                android:id="@+id/btnAdLearnMore"
+                android:text="Learn More >>"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.hotstar.player.adplayer.player.NonMarkableSeekBar
+                android:layout_width="160dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:id="@+id/txtAdCurrentTime"
+                android:text="00:00"
+                style="@style/PlayerControlBar.Text"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ControlBarItem"
+        style="@style/PlayerControlBarFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:addStatesFromChildren="true"
+        android:animateLayoutChanges="true"
+        android:clipToPadding="false"
+        android:splitMotionEvents="true" >
+
+        <LinearLayout
+            android:id="@+id/playerControlBarLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/btnPlayerControlPlayPause"
+                style="@style/PlayerControlBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/PlayerControlPlay"
+                android:src="@drawable/pause" />
+
+            <TextView
+                android:id="@+id/txtCurrentTime"
+                style="@style/PlayerControlBar.Text"
+                android:textSize="14sp" />
+
+            <com.hotstar.player.adplayer.player.MarkableSeekBar
+                android:id="@+id/sbPlayerControlSeekBar"
+                style="@style/PlayerControlBarSeekBar"
+                android:layout_width="160dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/txtTotalTime"
+                style="@style/PlayerControlBar.Text"
+                android:textSize="14sp"/>
+
+            <ImageButton
+                android:id="@+id/btnPlayerControlVolume"
+                style="@style/PlayerControlBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:contentDescription="@string/PlayerControlPlay"
+                android:src="@drawable/volume_controller"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/OverlayAdLayout"
+        android:layout_above="@+id/ControlBarItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/playerClickInfo"
+            android:name="com.hotstar.player.adplayer.player.PlayerClickableAdFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            tools:layout="@layout/fragment_player_clickable_ad" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/overlayAdImageView"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/overlayAdGifView"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ThumbnailAdLayout"
+        android:layout_above="@+id/ControlBarItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/thumbnailImageView"
+            android:scaleType="fitCenter"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+        <ImageView
+            android:id="@+id/thumbnailPlayImageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:scaleType="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/play"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_icon"/>
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/vpaidAdIconGifView"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

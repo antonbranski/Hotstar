@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="font">
+            <enum name="sys_default" value="0"/>
+            <enum name="gibson_regular" value="1"/>
+            <enum name="gibson_medium" value="2"/>
+            <enum name="gibson_semibold" value="3"/>
+            <enum name="gibson_bold" value="4"/>
+            <enum name="gibson_light" value="5"/>
+        </attr>
+    </declare-styleable>
+</resources>

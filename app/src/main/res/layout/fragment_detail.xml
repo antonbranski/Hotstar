@@ -1,0 +1,51 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/custom_actionbar" android:id="@+id/detail_custom_actionbar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:id="@+id/detail_main_layout">
+        <ImageView
+            android:id="@+id/detail_main_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            style="@style/SectionTailLayout">
+            <Button
+                android:id="@+id/detail_main_preview_button"
+                style="@style/SectionTailButton"
+                />
+            <TextView
+                android:id="@+id/detail_main_preview_textview"
+                android:layout_toLeftOf="@+id/detail_main_preview_iconview"
+                android:text="Play Movie"
+                style="@style/SectionTailRightTextView"/>
+            <ImageView
+                android:id="@+id/detail_main_preview_iconview"
+                style="@style/SectionTailImageView"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:background="@color/main_color_300"
+        android:id="@+id/detail_detail_layout">
+        <babushkatext.BabushkaText
+            android:id="@+id/detail_detail_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_color_300"
+            android:padding="10dp"/>
+    </RelativeLayout>
+    <include layout="@layout/custom_tab4_bar" android:id="@+id/detail_custom_tabbar" />
+
+</LinearLayout>

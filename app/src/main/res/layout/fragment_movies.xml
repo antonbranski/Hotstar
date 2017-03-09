@@ -1,0 +1,76 @@
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:id="@+id/movies_main_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/movies_main_imageview1"
+                android:layout_weight="50"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/movies_main_imageview2"
+                android:layout_weight="50"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:id="@+id/movies_trailers_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                style="@style/SectionHeadLayout">
+                <TextView
+                    style="@style/SectionHeadView"
+                    android:text="Latest Trailers"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/movies_trailers_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/main_color_300"
+                    android:text="1 min"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            style="@style/SectionTailLayout">
+            <Button
+                android:id="@+id/movies_trailers_browse_button"
+                style="@style/SectionTailButton"
+                />
+            <TextView
+                android:id="@+id/movies_trailers_browse_textview"
+                style="@style/SectionTailTextView"/>
+            <ImageView
+                android:id="@+id/movies_trailers_browse_iconview"
+                style="@style/SectionTailImageView"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

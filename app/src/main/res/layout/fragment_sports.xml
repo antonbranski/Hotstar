@@ -1,0 +1,71 @@
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:id="@+id/sports_main_layout">
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/sports_main_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            />
+        <RelativeLayout
+            style="@style/SectionTailLayout">
+            <Button
+                android:id="@+id/sports_main_browse_button"
+                style="@style/SectionTailButton"
+                />
+            <TextView
+                android:id="@+id/sports_main_browse_textview"
+                style="@style/SectionTailTextView"/>
+            <ImageView
+                android:id="@+id/sports_main_browse_iconview"
+                style="@style/SectionTailImageView"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:id="@+id/sports_kabaddi_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                style="@style/SectionHeadLayout">
+                <TextView
+                    style="@style/SectionHeadView"
+                    android:text="Kabaddi"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/sports_kabaddi_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            style="@style/SectionTailLayout">
+            <Button
+                android:id="@+id/sports_kabaddi_browse_button"
+                style="@style/SectionTailButton"
+                />
+            <TextView
+                android:id="@+id/sports_kabaddi_browse_textview"
+                style="@style/SectionTailTextView"/>
+            <ImageView
+                android:id="@+id/sports_kabaddi_browse_iconview"
+                style="@style/SectionTailImageView"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

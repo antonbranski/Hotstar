@@ -1,0 +1,455 @@
+<resources>
+    <string name="app_name">HotStar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="heading1_text">Get Started!</string>
+    <string name="heading2_text">Register now to create personalized playlists, download videos to watch offline, share and like/dislike.</string>
+    <string name="hotnow_title">HOT NOW!</string>
+    <string name="shows_title">SHOWS</string>
+    <string name="movies_title">MOVIES</string>
+    <string name="sports_title">SPORTS</string>
+    <string name="collections_title">COLLECTIONS</string>
+    <string name="international_title">INTERNATIONAL</string>
+    <string name="shows_channels_title">CHANNELS</string>
+    <string name="shows_allshows_title">ALL SHOWS</string>
+    <string name="shows_collections_title">COLLECTIONS</string>
+    <string name="movies_genres_title">GENRES</string>
+    <string name="movies_blockbuster_title">BLOCKBUSTER</string>
+    <string name="movies_allmovies_title">ALL MOVIES</string>
+    <string name="featured_title">Featured</string>
+    <string name="tvshows_title">TV Shows</string>
+
+    <string name="lblActivityCatalog">AdVideoPlayer</string>
+    <string name="lblActivityPlayer">Player</string>
+    <string name="lblActivitySettings">Settings</string>
+    <string name="lblActivityLog">Logs</string>
+    <string name="lblActivityAuthentication">Authentication</string>
+    <string name="lblActivityLicense">License</string>
+    <string name="lblActivityMetadata">Metadata</string>
+
+    <!-- ActionBar bar string resources -->
+    <string name="ActionBarLogs">Logs</string>
+    <string name="ActionBarRefresh">Refresh</string>
+    <string name="ActionBarDelete">Delete</string>
+    <string name="ActionBarSettings">Settings</string>
+    <string name="ActionBarMetadata">Metadata</string>
+    <string name="ActionBarLicense">License</string>
+    <string name="ActionBarAuthentication">Authentication</string>
+
+    <!-- <string name="ActionBarHelp">Help</string> -->
+    <string name="ActionBarABRSettings">ABR settings</string>
+    <string name="ActionBarBufferControl">Buffer control</string>
+    <string name="ActionBarAbout">About</string>
+    <string name="ActionBarSave">Save</string>
+    <string name="ActionBarTabLive">Live</string>
+    <string name="ActionBarTabStreamInfo">Stream Info</string>
+    <string name="ActionBarTabVOD">VOD</string>
+
+    <!-- Player control bar string resources -->
+    <string name="PlayerControlPlay">Play</string>
+    <!-- <string name="PlayerControlStop">Stop</string> -->
+    <!-- <string name="PlayerControlPause">Pause</string> -->
+    <string name="PlayerControlCC">CC</string>
+    <string name="PlayerControlRewind">Rewind</string>
+    <string name="PlayerControlCCDialogTitle">Select Closed Captions</string>
+    <string name="PlayerControlCCDialogCancel">Cancel</string>
+    <string name="PlayerControlAA">AA</string>
+    <string name="PlayerControlAADialogTitle">Select Alternate Audio Track</string>
+    <!-- <string name="PlayerControlAADialogCancel">Cancel</string> -->
+    <string name="PlayerControlReload">Reload</string>
+
+    <!-- Pub overlay bar string resources -->
+    <string name="PubOverlay">Pub overlay</string>
+
+    <!-- Mock player string resources -->
+    <!-- <string name="MockPlayerBanner">Primetime Media Player (mock)</string> -->
+
+
+    <!-- Catalog activity string resources -->
+    <string name="LoadInProgress">Loading content…</string>
+    <string name="ErrorLoadingContent">Error loading content. Try again.</string>
+    <string name="ButtonRefreshContent">Refresh content</string>
+    <string name="catalogItemImageDescription">Catalog Item Image</string>
+
+    <!-- StreamInfo activity string resources -->
+    <string name="IsLive">Is live:</string>
+    <string name="IsProtected">Is protected:</string>
+    <string name="IsTrickPlaySupported">Is trick-play supported:</string>
+    <string name="AvailableSpeeds">Available speeds:</string>
+    <string name="HasCC">Has CC:</string>
+    <string name="CCTracks">CC tracks:</string>
+    <string name="HasAA">Has AA:</string>
+    <string name="AATracks">AA tracks:</string>
+    <string name="IsDynamic">Is dynamic:</string>
+    <string name="BitRates">Bit-rates:</string>
+    <string name="PlayVOD">Play as VoD</string>
+    <string name="PlayLive">Play as Live</string>
+
+    <!-- Settings activity string resources -->
+    <string name="settingsCatalogContentUrl">Content URL</string>
+    <!--
+<string name="settingsCatalogContentUrlItemDescription">
+        The URL providing the information necessary to fill in the content catalog. Change this URL to load different content in the catalog view.
+</string>
+
+    -->
+    <!--<string name="contentUrl">http://auditudeapi.daxcloud.net/Images/AdMap.json</string>-->
+    <string name="sampleUrl">http://d398890tia84ty.cloudfront.net/reference/ref_player_sample_v2.json</string>
+    <string name="contentUrl">http://barcapi.daxcloud.net/DigitalCMS/usecase2/usecase2</string>
+    <string name="usecase1Url">http://barcapi.daxcloud.net/DigitalCMS/usecase1/usecase1</string>
+    <string name="usecase2Url">http://barcapi.daxcloud.net/DigitalCMS/usecase2/usecase2</string>
+    <string name="usecase3Url">http://barcapi.daxcloud.net/DigitalCMS/usecase3/usecase3</string>
+    <string name="usecase4Url">http://barcapi.daxcloud.net/DigitalCMS/usecase4/usecase4</string>
+    <string name="usecase5Url">http://barcapi.daxcloud.net/DigitalCMS/usecase5/usecase5</string>
+    <string name="usecase6Url">http://barcapi.daxcloud.net/DigitalCMS/usecase6/usecase6</string>
+    <string name="usecase7Url">http://barcapi.daxcloud.net/DigitalCMS/usecase7/usecase7</string>
+    <string name="usecase8Url">http://barcapi.daxcloud.net/DigitalCMS/usecase8/usecase8</string>
+    <string name="usecase9Url">http://barcapi.daxcloud.net/DigitalCMS/usecase9/usecase9</string>
+    <string name="usecase10Url">http://barcapi.daxcloud.net/DigitalCMS/usecase10/usecase10</string>
+    <string name="usecase11Url">http://barcapi.daxcloud.net/DigitalCMS/usecase11/usecase11</string>
+    <string name="settingsCatalogContentUrlSpinnerHint">Or you can select a predefined catalog URL:</string>
+    <string name="settingsLogItemsCount">Log entry count</string>
+    <!--
+<string name="settingsLogItemsCountDescription">
+        The maximum number of log/tracing entries to be stored in the logging database. When this value is reached, logging will start discarding the oldest entries.
+</string>
+
+    -->
+    <!-- <string name="settingsLogMaxCount">1000</string> -->
+
+    <string name="settingsControlBarAutohide">Autohide player control bar</string>
+    <string name="settingsControlBarAutohideDescription">        The player auto-hides the control bar after 5 sec. If this option is disabled, the control bar will also be visible during ad-break playback.</string>
+    <!-- <string name="settingsControlBarAutohideLabel">Enable</string> -->
+
+    <string name="settingsToastWarnings">Show toast warnings</string>
+    <string name="settingsToastWarningsDescription">        The application displays toast messages, when the players throws a warning. If this option is disabled, these toast messages won\'t be displayed.</string>
+    <!-- <string name="settingsToastWarningsLabel">Enable</string> -->
+
+    <string name="settingsForceOMXAL">Force OpenMAX AL</string>
+    <string name="settingsForceOMXALDescription">        For a certain Android device with 4.1 or above, media codec may present a problem during playback. Turn this on to fall back to OpenMAX AL to determine if this is the issue. This should on be turned on for debugging purpose.</string>
+
+    <string name="settingsCustomAdvertisingWorkflow">Customize advertising workflow</string>
+
+    <string name="settingsAdvertisingWorkflowEnabled">Enable advertising workflow.</string>
+    <string name="settingsAdvertisingWorkflowEnabledDescription">
+        The application will use the PSDK advertising workflow to detect and resolve ad placements.
+    </string>
+
+    <string name="settingsCustomAdFactory">Use custom ad client factory.</string>
+    <string name="settingsCustomAdFactoryDescription">        The application can use a custom ad client factory. This will instantiate the Auditude Ad Provider. The change comes from the fact that it will use a custom Opportunity Detector.
+        This detector will add custom parameters to the Auditude ad resolving calls, such as the cue duration.</string>
+    <string name="settingsCustomAdFactoryLabel">Enable</string>
+
+    <string name="settingsAdSignalingMode">Ad signaling mode</string>
+    <string name="settingsAdSignalingModeDescription">
+        The signaling mode to be use when playing streams. In "Manifest cues" mode, the player will use the cues present in the manifest for ad resolving and ad placement.
+        In "Server map" mode, the player will use the received placement information from the ad server. In "Default" mode, the player will use "Server map" for VoD streams
+        and "Manifest cues" for live/linear streams.
+    </string>
+
+    <string name="settingsClickableAds">Enable clickable ads</string>
+    <string name="settingsClickableAdsDescription">        The application will display a button when a clickable ad is being displayed during playback. User interaction will redirect the user to an url associated with the ad
+        using the native browser application. If this option is disabled, the notification message will not appear during playback.</string>
+    <string name="settingsReturnOnPlaybackComplete">Return home when playback finishes</string>
+    <string name="settingsReturnOnPlaybackCompleteDescription">        The application will automatically return to the catalog view when playback finishes. If this option is disabled, the application will remain in the player view.</string>
+    <string name="settingsSeekInAd">Allow seek while ad is playing</string>
+    <string name="settingsSeekInAdDescription">        This option specifies whether the user is able to perform a seek during ad playback.</string>
+    <string name="settingsDrmPrecache">Pre cache DRM licences when loading content listing</string>
+    <string name="settingsDrmPrecacheDescription">Pre cache DRM licences when loading content listing</string>
+    <string name="settingsDisplayQos">QoS parameters visibility</string>
+    <string name="settingsDisplayQosDescription">        The player will display QoS information specific to the current item that is being played.</string>
+    <string name="logDirName">/sdcard/pmp/</string>
+    <string name="logColumnSeparator">(^)</string>
+    <string name="settingsButtonDescription">Modify Application Settings</string>
+    <string name="settingsLogVerbosity">Logging verbosity level</string>
+    <string name="settingsLogVerbosityDescription">Set the maximum verbosity level. Setting the "Debug" verbosity level will include all logging messages. Setting the "Warn" verbosity level will include the "Error" and "Warn" log entries. Setting the verbosity level to "None" will disable all logging.</string>
+    <!-- <string name="settingsLogVerbosityNone">None</string> -->
+    <!-- <string name="settingsLogVerbosityError">Error</string> -->
+    <!-- <string name="settingsLogVerbosityWarn">Warn</string> -->
+    <!-- <string name="settingsLogVerbosityInfo">Info</string> -->
+    <!-- <string name="settingsLogVerbosityDebug">Debug</string> -->
+
+    <string name="settingsDrmCredentials">DRM credentials</string>
+    <!--
+    <string name="settingsDrmCredentialsDescription">
+        Credentials which will be used by default when drm authentication is needed. If no credentials are provided, then protected streams which will require authentication will not play correctly.
+	</string>
+
+    -->
+
+    <string name="settingsDrmUsername">DRM Username</string>
+    <!--
+    <string name="settingsDrmUsernameDescription">
+        DRM Username for authentication:
+	</string>
+
+    -->
+    <string name="drmUsername">testuser</string>
+    <string name="drmPassword">testpass</string>
+    <string name="settingsDrmPassword">DRM Password</string>
+    <!--
+    <string name="settingsDrmPasswordDescription">
+        DRM Password for authentication:
+	</string>
+
+    -->
+
+    <string name="remoteLoggingHost">127.0.0.1</string>
+    <string name="remoteLoggingPort">3000</string>
+    <string name="remoteLoggingSessionTag">{platform}-{timestamp}</string>
+    <string name="drmMetadataUrlError">Unable to download DRM metadata url content.</string>
+    <string name="drmAuthenticationError">Authentication for protected content failed. Canceling playback of selected content.</string>
+    <string name="drmAuthenticationLoading">Please wait while authenticating …</string>
+    <string name="settingsCustomCues">Custom cues</string>
+    <!--
+    <string name="settingsCustomCuesDescription">
+        Set the ad cues used for ad insertion. Set the manifest cue tags, that the application wants to be notified about.
+	</string>
+
+    -->
+    <string name="settingsCustomAdCuesDescription">Custom ad cues (separated by comma)</string>
+    <string name="settingsSubscribedCuesDescription">Subscribed cues (separated by comma)</string>
+    <string name="settingsAbrControl">ABR controls</string>
+    <string name="settingsAbrControlEnable">Enable ABR Controls</string>
+    <!--
+    <string name="settingsAbrControlDescription">
+        Set the paramters that control the rendition of ABR content.
+	</string>
+
+    -->
+
+    <string name="settingsAbrInitialBitRate">Initial bit-rate</string>
+    <!--
+    <string name="settingsAbrInitialBitRateDescription">
+        ABR initial bit-rate
+	</string>
+
+    -->
+
+    <string name="settingsAbrMinBitRate">Minimum bit-rate</string>
+    <string name="settingsAbrMinBitRateDescription">        ABR minimum bit-rate</string>
+    <string name="settingsAbrDisabledMessage">Enable the ABR controls in the settings panel if you want to change the ABR parameter values.</string>
+    <string name="settingsAbrMaxBitRate">Maximum bit-rate</string>
+    <string name="settingsAbrMaxBitRateDescription">        ABR maximum bit-rate</string>
+    <string name="settingsAbrPolicy">Switch policy</string>
+    <string name="settingsAbrPolicyDescription">        Bit-rate switch policy for ABR content</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <!-- <string name="settingsPlayback">Playback options</string> -->
+    <string name="settingsAbr">ABR settings</string>
+
+    <!-- Video Analytics settings -->
+    <string name="settingsVAConfig">Video Analytics</string>
+    <string name="settingsVATrackingServer">Tracking Server</string>
+    <string name="settingsVAJobId">Job ID</string>
+    <string name="settingsVAPublisher">Publisher</string>
+    <string name="settingsVADebugLoggingEnable">Debug Logging</string>
+    <string name="settingsVAChannel">Channel</string>
+    <string name="settingsVAQuietModeEnable">Quiet Mode</string>
+    <string name="settingsVAEnable">Enable Video Analytics</string>
+
+    <string name="settingsDVRControl">DVR controls</string>
+    <string name="settingsDVRstartTimeEnabled">Custom start time control </string>
+    <string name="settingsDVRstartTimeEnabledDescription">        Enable this option if you want to choose a custom position when to enter playback in the DVR window.
+</string>
+    <string name="settingsDVRcustomStartTime">Choose custom start time</string>
+    <string name="settingsDVRseekOutsideEnabled">Seek control</string>
+    <string name="settingsDVRseekOutsideEnabledDescription">        Enable this option if you want to seek at a custom seeking position when the playback position is no longer contained
+        in the DVR window and a time jump has occurred. You can seek at the client live point or choose an offset from the dvr window start.
+</string>
+    <string name="settingsDVRseekClpEnabled">Seek at CLP</string>
+    <string name="settingsDVRseekClpEnabledDescription">        Enable this option to seek at client live point when a time jump occurs.
+</string>
+    <string name="settingsDVRoffset">Choose offset</string>
+
+    <string name="settingsBufferControl">Buffer control</string>
+    <!--
+    <string name="settingsBufferControlDescription">
+        Set the parameters that control the player buffer.
+	</string>
+
+    -->
+    <string name="settingsBufferInit">Initial buffer time</string>
+    <string name="settingsBufferTime">Play buffer time</string>
+    <string name="settingsCCStyle">Closed Captions style</string>
+    <string name="settingsCCFont">Font</string>
+    <string name="settingsCCFontColor">Font color</string>
+    <string name="settingsCCBackgroundColor">Background color</string>
+    <string name="settingsCCEdgeColor">Edge color</string>
+    <string name="settingsCCSize">Size</string>
+    <string name="settingsCCFontEdge">Font edge</string>
+    <string name="settingsCCFontOpacity">Font opacity</string>
+    <string name="settingsCCBackgroundOpacity">Background opacity</string>
+    <string name="settingsRemoteLogging">Remote Logging</string>
+    <string name="settingsRemoteLoggingHost">Host URL</string>
+    <string name="settingsRemoteLoggingPort">Port</string>
+    <string name="settingsRemoteLoggingSessionTag">Session tag</string>
+    <string name="settingsRemoteLoggingActive">Enable remote logging</string>
+    <string name="settingsRemoteLoggingActivateDescription">When the remote logging is active, PSDK notifications are sent to a remote logging server.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="none">None</string>
+    <string name="enable">Enable</string>
+    <!-- <string name="settings_saved">Your settings are saved.</string> -->
+    <string name="close">Close</string>
+    <string name="active">has activity</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutPsdkVersion">PSDK version: </string>
+    <string name="aboutPsdkDescription">PSDK description: </string>
+    <string name="aboutAveVersion">AVE version: </string>
+    <string name="aboutDeviceBrand">Brand: </string>
+    <string name="aboutDeviceModel">Model: </string>
+    <string name="aboutDeviceSoftware">OS: </string>
+    <string name="aboutDeviceProduct">Product: </string>
+    <string name="aboutDeviceFingerprint">Fingerprint: </string>
+    <string name="aboutDeviceProcessor">Processor: </string>
+    <string name="aboutDeviceResolution">Resolution: </string>
+    <string name="aboutApp_version_label">Version:</string>
+    <string name="aboutApp_version"> 1.4.9.1332 </string>
+    <string name="qosResolution">Resolution</string>
+    <string name="qosAudioProfile">Currently playing an audio only profile</string>
+
+    <!-- DRM test dialog resources -->
+    <string name="authenticatetodomainserver">To Domain Server</string>
+    <string name="authenticationImageDescription">Authentication Image</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="clearauthtoken">Clear Authentication Token</string>
+    <string name="get">Get</string>
+    <string name="times">times</string>
+    <string name="join">Join</string>
+    <string name="leave">Leave</string>
+    <string name="force">Force</string>
+    <string name="authtokeninascii">Auth token in ASCII</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="settoken">Set Token</string>
+    <string name="open">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="acquire">Acquire</string>
+    <string name="clearlocallycached">Clear locally cached</string>
+    <string name="licensefileurl">License File URL</string>
+    <string name="importlicensefromurl">Import license from URL</string>
+    <string name="commitImmediately">Commit Immediately</string>
+    <string name="serverURL">Server URL</string>
+    <string name="licenseID">License ID</string>
+    <string name="policyID">Policy ID</string>
+    <string name="returnLicense">Return License</string>
+    <string name="license">License</string>
+    <string name="handleLicenseDescription">License image</string>
+    <string name="importa">Import</string>
+    <string name="export">Export</string>
+    <string name="drminitialize">Initialize DRM</string>
+    <string name="drmmetadatafile">DRM Metadata File</string>
+    <string name="loaddrmmetadata">Load DRM Metadata</string>
+    <string name="drmmetadata">DRM Metadata</string>
+    <string name="drm_confirm_clear_cached_licenses">Are you sure you want to clear locally cached licenses?</string>
+    <string name="drm_name_license_file">Please name the license file</string>
+    <string name="drm_choose_license_file">Please choose a license file</string>
+    <string name="drm_name_authtoken_file">Please name the auth token file</string>
+    <string name="drm_choose_authoken_file">Please choose an auth token</string>
+    <string name="clickInfoText">Click here for more info</string>
+    <string name="drm_error_title">Content Protection Error</string>
+    <string name="drm_error_text">The content could not be played.</string>
+    <string name="drm_error_ok">OK</string>
+    <string name="streaminfo_retrieve">Type the stream URL here.</string>
+    <string name="streaminfo_input_drm_meta">Type the stream DRM metadata URL here (if any).</string>
+    <string name="streaminfo_input_stream_url">Retrieve stream info</string>
+    <string name="handleImageDescription">Handle Image</string>
+    <string name="logIconDescription">Log Icon</string>
+
+    <!-- DRM auth dialog string resources -->
+    <string name="drm_auth_title">Content playback requires username and password</string>
+
+    <!-- DRM default error code string resources -->
+    <string name="drm_message_retry">The content license has been updated, please re-try playback.</string>
+    <string name="drm_message_default">The content could not be played due to a content protection error.</string>
+
+    <!-- DRM error code string resources for display to the user through the DRM error dialog -->
+    <!-- Other DRM errors in the range 3300 - 3399 can be added here using name pattern drm_message_xxxx -->
+    <!-- If a DRM error occurs and the string is not found here, the drm_message_default is used. -->
+    <string name="drm_message_3301">The user name or password are incorrect for playing this content. Please check the username and password.</string>
+    <string name="drm_message_3303">The content has expired according to the rules set by the content provider.</string>
+    <string name="drm_message_3304">The user name or password are incorrect for playing this content.  Please check the username and password.</string>
+    <string name="drm_message_3305">The content cannot be viewed because there was a problem connecting to the license server.</string>
+    <string name="drm_message_3306">Cannot play the content with this player version. An update may be required.</string>
+    <string name="drm_message_3310">Cannot play the content with this application version. An update may be required.</string>
+    <string name="drm_message_3313">Write to file system failed due to permissions or because there is no space left.</string>
+    <string name="drm_message_3327">The content could not be played, due the system clock being set incorrectly. Please re-set the clock.</string>
+    <string name="drm_message_3331">The start time specified for content playback has not yet occurred.   Please try again later.</string>
+    <string name="drm_message_3333">The time interval specified for content playback has expired.</string>
+    <string name="drm_message_3335">Cannot play content with this player version. An update may be required.</string>
+    <string name="drm_message_3336">Content playback not allowed on this platform.</string>
+    <string name="drm_message_3337">Content playback not allowed on this player version.  An update may be required.</string>
+    <string name="drm_message_3339">Content playback not allowed on analog displays. Connect a digital display.</string>
+    <string name="drm_message_3340">Analog display does not have correct capabilities for playback.</string>
+    <string name="drm_message_3341">Content playback not allowed on digital displays.</string>
+    <string name="drm_message_3342">Digital display does not have the correct capabilities for playback.</string>
+    <string name="drm_message_3347">The content playback policy requires a hardware capability that the device does not have.</string>
+    <string name="drm_message_3354">Domain token has expired.</string>
+    <string name="drm_message_3355">Domain join failed.</string>
+    <string name="drm_message_3358">Content playback not allowed on this display.</string>
+    <string name="drm_message_3359">Content playback not allowed on this display.</string>
+    <string name="drm_message_3365">This browser/platform combination does not allow DRM protected playback when in incognito mode.</string>
+    <string name="sbPlayerRewind">sbPlayerRewind</string>
+    <string name="attention">Attention</string>
+    <string name="okbutton">OK</string>
+    <string name="loginusername">Username</string>
+
+    <!-- Entitlement strings -->
+    <!-- Used for demonstration purposes only. Do not sign your requestor id locally within the appliation -->
+    <string name="adobepass_credential_store_password">adobepass</string>
+    <!-- Programmer requestor ID, change to ID provided by your Adobe Primetime PayTV Pass representative -->
+    <string name="adobepass_requestor_id">REF</string>
+    <!-- Adobe Primetime PayTV Pass service provider endpoint for production environment -->
+    <string name="adobepass_sp_url_production">sp.auth.adobe.com</string>
+    <!-- Adobe Primetime PayTV Pass service provider endpoint for staging environment -->
+    <string name="adobepass_sp_url_staging">sp.auth-staging.adobe.com</string>
+
+    <string name="ActionBarEntitlementSignIn">Sign In</string>
+    <string name="aboutAccessEnablerVersion">AccessEnabler: </string>
+    <string name="lblActivityEntitlement">Entitlement</string>
+    <string name="entitlement_dialog_button_ok">OK</string>
+    <string name="entitlement_dialog_button_logout">Sign Out</string>
+    <string name="entitlement_logout_confirmation">Sign Out Successful!</string>
+    <string name="lblActivityEntitlementLogin">TV Everywhere Sign In</string>
+    <string name="lblActivityEntitlementPicker">TV Everywhere Provider Selection</string>
+    <string name="entitlement_login_activity_title">Sign In to your TV provider.</string>
+    <string name="entitlement_picker_activity_title">Select your TV provider.</string>
+    <string name="entitlement_authn_success">Welcome! You\'re now signed in to watch tv everywhere programming as a benefit of your
+        cable subscription.
+    </string>
+    <string name="entitlement_user_not_authorized">You do not have access to watch this video.</string>
+    <string name="entitlement_authz_tvs_error">A communication error occurred with the Token Verification Service.
+    </string>
+    <string name="entitlement_authz_generic_error">An error occurred while granting access to watch the selected video.
+        Please try again later.
+    </string>
+    <string name="entitlement_provider_not_selected">Please select your tv everywhere provider.</string>
+    <string name="entitlement_user_not_authenticated">Your sign in credentials are not valid.</string>
+    <string name="entitlement_authn_generic_error">An error occurred during sign in.</string>
+    <string name="entitlement_logout_success">You have successfully signed out.</string>
+    <string name="entitlement_authz_success">You currently have access to view the selected content.</string>
+    <string name="entitlement_title_authn_success">Welcome!</string>
+    <string name="entitlement_title_error">Error</string>
+    <string name="entitlement_title_authn_error">Sign In Error</string>
+    <string name="entitlement_title_authz_error">Video Not Available</string>
+    <string name="entitlement_title_logout">Sign Out</string>
+    <string name="entitlement_title_authz_success">Welcome!</string>
+    <string name="entitlement_config_error">An error occurred while configuring the tv everywhere adaptor. Please contact
+        your application provider for assistance.
+    </string>
+    <string name="ActionBarEntitlementSignOut">Sign Out</string>
+    <string name="entitlement_provider_search_hint">Search all TV providers</string>
+    <string name="entitlement_provider_search_label">TV Provider List</string>
+    <string name="entitlement_search_button_text">Search full list of TV providers</string>
+    <string name="entitlement_search_error">\'%s\' is not a valid TV content provider. Please choose from the list of
+        available TV content providers.
+    </string>
+    <string name="entitlement_view_full_mvpd_list">See full TV content provider list</string>
+    <string name="entitlement_view_back">Back</string>
+    <string name="entitlement_mvpd_logo_description">Content Provider Logo</string>
+
+</resources>

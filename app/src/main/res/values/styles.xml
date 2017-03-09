@@ -1,0 +1,134 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+    <color name="main_color_000">#000000</color>
+    <color name="main_color_100">#273238</color>
+    <color name="main_color_200">#525B60</color>
+    <color name="main_color_300">#FDFDFD</color>
+    <color name="main_color_400">#939393</color>
+    <color name="main_color_500">#33CE94</color>
+    <color name="main_color_600">#B8B8B8</color>
+    <color name="main_color_700">#83CE94</color>
+    <color name="main_color_900">#FFFFFF</color>
+    <color name="transparent_main_color_000">#66000000</color>
+    <color name="transparent_main_color_100">#66273238</color>
+    <color name="transparent_main_color_200">#66525B60</color>
+    <color name="transparent_main_color_300">#66FDFDFD</color>
+    <color name="transparent_main_color_400">#66939393</color>
+    <color name="transparent_main_color_500">#6633CE94</color>
+    <color name="transparent_main_color_600">#66B8B8B8</color>
+    <color name="transparent_main_color_900">#66FFFFFF</color>
+
+
+    <style name="Heading1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_color_000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="Heading2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_color_000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="SectionHeadLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/gradient_textview</item>
+    </style>
+
+    <style name="SectionHeadView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/main_color_100</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontPath">fonts/Gibson-Regular.ttf</item>
+    </style>
+
+    <style name="SectionTailLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/transparent_main_color_000</item>
+    </style>
+
+    <style name="SectionTailButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/transparent_main_color_000</item>
+    </style>
+
+    <style name="SectionTailTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/main_color_900</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontPath">fonts/Gibson-Regular.ttf</item>
+    </style>
+
+    <style name="SectionTailRightTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/main_color_900</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontPath">fonts/Gibson-Regular.ttf</item>
+    </style>
+
+    <style name="SectionTailImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/ic_chevron_right_white_24dp</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/main_color_100</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="fontPath">fonts/Gibson-Regular.ttf</item>
+    </style>
+
+    <style name="SubscriptionTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/main_color_400</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="fontPath">fonts/Gibson-Regular.ttf</item>
+    </style>
+
+</resources>

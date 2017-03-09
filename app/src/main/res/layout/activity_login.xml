@@ -1,0 +1,76 @@
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_color_000"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_image"
+                android:scaleType="fitStart"
+                android:layout_width="256dp"
+                android:layout_height="256dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            app:border_width="2dp"
+            app:border_color="#FF000000"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:src="@drawable/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register Now"
+            android:id="@+id/btnRegisterNow"
+            android:layout_above="@+id/btnGotoSignIn"
+            android:layout_alignLeft="@+id/btnGotoLibrary"
+            android:layout_alignStart="@+id/btnGotoLibrary"
+            android:background="@drawable/roundbutton"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:id="@+id/btnGotoSignIn"
+            android:layout_above="@+id/btnGotoLibrary"
+            android:layout_alignLeft="@+id/btnGotoLibrary"
+            android:layout_alignStart="@+id/btnGotoLibrary"
+            android:background="@drawable/roundbutton"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Go to Library"
+            android:id="@+id/btnGotoLibrary"
+            android:layout_marginBottom="33dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/roundbutton"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

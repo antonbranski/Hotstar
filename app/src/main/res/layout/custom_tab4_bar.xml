@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/main_color_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/custom_tab4_like_button"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        fancy:fb_iconResource="@drawable/like"
+        fancy:fb_iconPosition="top"
+        fancy:fb_textColor="@color/main_color_200"
+        fancy:fb_text="LIKE THIS"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/custom_tab4_dislike_button"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        fancy:fb_iconResource="@drawable/dislike"
+        fancy:fb_textColor="@color/main_color_200"
+        fancy:fb_iconPosition="top"
+        fancy:fb_text="DISLIKE" />
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/custom_tab4_addtolist_button"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        fancy:fb_iconResource="@drawable/add_list"
+        fancy:fb_iconPosition="top"
+        fancy:fb_textColor="@color/main_color_200"
+        fancy:fb_text="ADD TO LIST"/>
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/custom_tab4_share_button"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        fancy:fb_iconResource="@drawable/share"
+        fancy:fb_textColor="@color/main_color_200"
+        fancy:fb_iconPosition="top"
+        fancy:fb_text="SHARE"/>
+</LinearLayout>

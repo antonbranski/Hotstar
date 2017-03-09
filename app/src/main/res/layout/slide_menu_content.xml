@@ -1,0 +1,37 @@
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/main_color_600"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/heading1_text"
+            style="@style/Heading1"
+            android:id="@+id/slide_menu_username" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/heading2_text"
+            style="@style/Heading2"
+            android:id="@+id/heading2"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_color_900"
+        android:choiceMode="singleChoice"
+        android:divider="@color/main_color_900"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true" />
+
+</LinearLayout>
